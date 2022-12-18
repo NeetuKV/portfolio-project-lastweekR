@@ -152,3 +152,31 @@ p {
 .about-section-content {
   margin: 30px;
 }
+.logo {
+  max-width: 40px;
+}
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+nav a {
+  text-decoration: underline;
+  color: #272142;
+  transition: all 150ms ease-in-out;
+}
+nav a:hover,
+nav li:active a {
+  color: var(--branding-color);
+}
+nav a {
+  font-size: 14px;
+}
