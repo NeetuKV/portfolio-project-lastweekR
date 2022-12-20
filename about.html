@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Praneetha is new to Front End Development in Sunnyvale California, USA."
+    />
     <title>About Me</title>
 
     <link
@@ -32,12 +36,38 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justtify-content-between">
+        <a href="/"
+          ><img
+            src="images/logo.jpg"
+            class="logo"
+            alt=" Praneetha logo"
+            title="HomePage"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="index.html" title="Home Page"> HomePage</a>
+          </li>
+          <li class="active">
+            <a href="about.html" title="About Page"> About</a>
+          </li>
+          <li>
+            <a href="work.html" title="Work Page"> Work</a>
+          </li>
+          <li>
+            <a href="contact.html" title="Contact Page"> Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="about-section container">
       <div class="row">
         <div class="col-md-6">
           <div class="about-section-content">
             <h1 class="mb-4">👋 Hi, I am Praneetha Rajashekar</h1>
-            <h2 class="mb-4">🇺🇸BackEnd Developer, Sunnyvale CA</h2>
+            <h2 class="mb-4">🇺🇸Front-End Developer, Sunnyvale CA</h2>
             <p class="mb-4">
               My name is Praneetha Rajashekar. I live in Sunnyvale CA USA. I
               love dancing and I am good at dancing. I keep my peace by doing
@@ -52,7 +82,7 @@
         <div class="col-lg-6">
           <img
             src="images/portfolio.jpg"
-            alt=""
+            alt="Praneetha profile picture"
             class="img-fluid"
             width="300"
             height="300"
@@ -60,5 +90,70 @@
         </div>
       </div>
     </div>
+    <footer class="container">
+      <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+        <div>
+          <h4>Work Inquiry</h4>
+          <p class="text-muted">Lets work together!</p>
+        </div>
+        <div>
+          <a
+            href="contact.html"
+            class="btn btn-branding mt-3"
+            title="Contact Praneetha"
+          >
+            Contact Me
+          </a>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a
+          href="mailto:praneetaraj@gmail.com"
+          class="email-link"
+          title="Email Praneetha"
+          >praneetaraj@gmail.com</a
+        >
+      </div>
+
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://www.instagram.com/praneetha"
+          target="_blank"
+          title="Instgram Profile"
+        >
+          <i class="fa-brands fa-instagram"></i> </a
+        ><a
+          href="https://www.facebook.com/praneetha_vinay"
+          target="_blank"
+          title="Facebook Profile"
+          ><i class="fa-brands fa-facebook-f"></i>
+        </a>
+
+        <a
+          href="https://www.twitter.com/praneetha"
+          target="_blank"
+          title="Twitter Profile"
+        >
+          <i class="fa-brands fa-twitter"></i
+        ></a>
+        <a
+          href="https://www.github.com/neetukv"
+          target="_blank"
+          title="GitHub Profile"
+        >
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+      <p class="text-center mt-5">
+        This project is coded by Praneetha Rajashekar and it is
+        <a
+          href="https://github.com/NeetuKV/portfolio-project-lastweekR"
+          target="_blank"
+          title="GitHub Profile"
+        >
+          <i class="fa-brands fa-github"></i> Open Sourced
+        </a>
+      </p>
+    </footer>
   </body>
 </html>
